@@ -1,0 +1,65 @@
+/* Cấu trúc cho phần chi tiết sản phẩm */
+.product-detail {
+    max-width: 900px;  /* Chiều rộng tối đa của khu vực chi tiết sản phẩm */
+    margin: 0 auto;    /* Canh giữa */
+    padding: 20px;     /* Khoảng cách giữa các phần tử và viền */
+    background-color: #f9f9f9;  /* Màu nền nhạt */
+    border-radius: 10px;  /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Tạo bóng đổ nhẹ */
+}
+
+/* Tiêu đề sản phẩm */
+.product-detail h1 {
+    font-size: 2.5rem;    /* Kích thước tiêu đề lớn */
+    font-weight: bold;    /* Đậm */
+    margin-bottom: 15px;  /* Khoảng cách dưới tiêu đề */
+    color: #333;  /* Màu chữ */
+    text-align: center;  /* Căn giữa tiêu đề */
+}
+
+/* Mô tả sản phẩm */
+.product-detail p {
+    font-size: 1.2rem;  /* Kích thước chữ vừa phải */
+    color: #666;        /* Màu chữ nhạt */
+    line-height: 1.6;    /* Khoảng cách dòng */
+    margin-bottom: 15px; /* Khoảng cách dưới mỗi đoạn */
+}
+
+/* Giá sản phẩm */
+.product-detail strong {
+    font-size: 1.5rem;   /* Kích thước chữ giá lớn */
+    color: #e74c3c;      /* Màu chữ đỏ */
+    font-weight: bold;
+}
+
+/* Hình ảnh sản phẩm */
+.product-detail img {
+    width: 80%;         /* Giảm chiều rộng của ảnh còn 80% */
+    max-width: 400px;   /* Chiều rộng tối đa 400px */
+    height: auto;       /* Giữ tỷ lệ khung hình */
+    margin-top: 20px;   /* Khoảng cách từ văn bản đến ảnh */
+    display: block;     /* Đảm bảo ảnh hiển thị như một block */
+    margin-left: auto;  /* Canh giữa ảnh */
+    margin-right: auto;
+}
+
+/* Nút thêm vào giỏ hàng */
+.add-to-cart {
+    display: inline-block;
+    background-color: #3498db;   /* Màu nền xanh */
+    color: #fff;                 /* Màu chữ trắng */
+    padding: 12px 25px;          /* Khoảng cách bên trong nút */
+    font-size: 1.2rem;           /* Kích thước chữ */
+    text-align: center;          /* Căn giữa chữ */
+    border-radius: 5px;          /* Bo góc */
+    text-decoration: none;       /* Xóa gạch dưới */
+    margin-top: 20px;            /* Khoảng cách trên nút */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    border: 2px solid #2980b9;   /* Thêm viền cho nút */
+    background-color: #2980b9;   /* Màu nền của nút khi bình thường */
+}
+
+.add-to-cart:hover {
+    background-color: #1d6fa5;  /* Màu nền thay đổi khi hover */
+    border-color: #1d6fa5;       /* Thay đổi màu viền khi hover */
+}
